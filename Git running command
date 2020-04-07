@@ -1,0 +1,113 @@
+Microsoft Windows [Version 10.0.18363.720]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git init
+Initialized empty Git repository in C:/Users/HeeraBabu/Documents/spring boot/p1/.git/
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git add .
+warning: LF will be replaced by CRLF in restwebservice/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/.mvn/wrapper/MavenWrapperDownloader.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/bin/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/bin/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/bin/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/bin/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/bin/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/bin/src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/src/main/java/com/programmingshifts/restwebservice/restwebservice/RestwebserviceApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in restwebservice/src/test/java/com/programmingshifts/restwebservice/restwebservice/RestwebserviceApplicationTests.java.
+The file will have its original line endings in your working directory
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git commit -m "first commit"
+[master (root-commit) cfa1e40] first commit
+ 28 files changed, 1349 insertions(+)
+ create mode 100644 1.png
+ create mode 100644 output.png
+ create mode 100644 output_hello world.png
+ create mode 100644 project_structure.PNG
+ create mode 100644 restwebservice/.gitignore
+ create mode 100644 restwebservice/.mvn/wrapper/MavenWrapperDownloader.java
+ create mode 100644 restwebservice/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 restwebservice/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 restwebservice/bin/.gitignore
+ create mode 100644 restwebservice/bin/.mvn/wrapper/MavenWrapperDownloader.class
+ create mode 100644 restwebservice/bin/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 restwebservice/bin/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 restwebservice/bin/mvnw
+ create mode 100644 restwebservice/bin/mvnw.cmd
+ create mode 100644 restwebservice/bin/pom.xml
+ create mode 100644 restwebservice/bin/src/main/java/com/programmingshifts/restwebservice/restwebservice/RestwebserviceApplication.class
+ create mode 100644 restwebservice/bin/src/main/resources/application.properties
+ create mode 100644 restwebservice/bin/src/test/java/com/programmingshifts/restwebservice/restwebservice/RestwebserviceApplicationTests.class
+ create mode 100644 restwebservice/mvnw
+ create mode 100644 restwebservice/mvnw.cmd
+ create mode 100644 restwebservice/pom.xml
+ create mode 100644 restwebservice/src/main/java/com/programmingshifts/restwebservice/restwebservice/RestwebserviceApplication.java
+ create mode 100644 restwebservice/src/main/java/com/programmingshifts/restwebservice/restwebservice/controller/MainController.java
+ create mode 100644 restwebservice/src/main/resources/application.properties
+ create mode 100644 restwebservice/src/test/java/com/programmingshifts/restwebservice/restwebservice/RestwebserviceApplicationTests.java
+ create mode 100644 server running on port no..PNG
+ create mode 100644 spring boot--how to use start dot spring dot io.png
+ create mode 100644 steps.png
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git remote add origin https://github.com/HeeraBabu007/MicroservicesCourse.git
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git push -u origin master
+git: 'credential-cache' is not a git command. See 'git --help'.
+Enumerating objects: 57, done.
+Counting objects: 100% (57/57), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (35/35), done.
+Writing objects: 100% (57/57), 746.24 KiB | 20.17 MiB/s, done.
+Total 57 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/HeeraBabu007/MicroservicesCourse.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git add .
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git commit -m "first commit 2"
+[master f2aedf3] first commit 2
+ 1 file changed, 11 insertions(+)
+ create mode 100644 git command
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git remote add origin https://github.com/HeeraBabu007/MicroservicesCourse.git
+fatal: remote origin already exists.
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>git push -u origin master
+git: 'credential-cache' is not a git command. See 'git --help'.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 472 bytes | 472.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/HeeraBabu007/MicroservicesCourse.git
+   cfa1e40..f2aedf3  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\HeeraBabu\Documents\spring boot\p1>
